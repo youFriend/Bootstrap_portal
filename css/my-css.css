@@ -1,0 +1,102 @@
+#home{
+    background: url("../images/bg.jpg");
+    /*修改背景图片的百分比*/
+    background-size: cover;
+    /*修改透明度来更改颜色*/
+    /*background: rgba(123, 255, 221, 0);*/
+    font-size: 20px;
+    height: 100%;
+
+}
+#home h1{
+    padding-top: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#home img{
+    height: 250px;
+    width: 250px;
+}
+/*home2*/
+.col-sm-4:hover{
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+
+}
+#home2{
+    text-align: center;
+    padding: 20px 0;
+}
+#home2 img{
+    width: 100px;
+    height: 100px;
+}
+#home2 a{
+    color: rgba(1,3,2,1);
+    /*text-decoration-line: none;下划线*/
+}
+/*html5*/
+
+#html5, #html6{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.04);
+
+}
+#html5 img, #html6 img{
+    width: 400px;
+    height: 300px;
+    padding-top: 50px;
+
+
+}
+#html5 span img, #html6 span img{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+}
+#html5 h2{
+    padding-top: 30px;
+}
+#html6 h2{
+    padding-top: 30px;
+}
+/*html2*/
+#html2 [class="col-sm-3"] {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+.btn-outline-primary {
+    color: #73c82d;
+    border-color: #83d434;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #73c82d;
+    border-color: #73c82d;
+}
+/*adress*/
+#myAdress{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: url("../images/bg.jpg");
+    background-size: cover;
+    background-color: rgba(0,0,0,0.1);
+}
+#myAdress h1{
+    margin-top: 30px;
+}
+#adressInfo [class="col-sm-12"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#myAdress [class="col-sm-6"]{
+    margin-top: 30px;
+}
+/*footer*/
+#footId{
+    text-align: center;
+
+}
